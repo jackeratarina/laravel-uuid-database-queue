@@ -1,5 +1,6 @@
 {
     "name": "stescacom/laravel-uuid-database-queue",
+    "version": "1.0.0",
     "description": "This enables laravel to use UUID for Job primary key, and enables proper interaction.",
     "type": "project",
     "license": "MIT",
