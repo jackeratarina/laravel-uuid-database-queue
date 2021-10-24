@@ -1,0 +1,36 @@
+{
+    "name": "stescacom/laravel-uuid-database-queue",
+    "description": "This enables laravel to use UUID for Job primary key, and enables proper interaction.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stescacom\\LaravelUuidDatabaseQueue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stescacom\\LaravelUuidDatabaseQueue\\LaravelUuidDatabaseQueueProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ubaid ur Rahman",
+            "email": "info@stesca.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "laravel/framework": "^8.0",
+        "doctrine/dbal": "^3.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/stescacom/laravel-uuid-database-queue.git"
+        }
+    ]
+}
