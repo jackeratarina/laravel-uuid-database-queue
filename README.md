@@ -4,6 +4,12 @@
 
 This package provides service provider and necessary classes to allow you to insert records with `UUID` as primary key. The `UUID` is ordered and uses Laravel's `Str::orderedUuid()`.
 
+## Install the package
+
+To install the package use the command below
+
+	composer require stescacom/laravel-uuid-database-queue
+
 ## Fresh Install of Laravel
 If you have a fresh Laravel project you'll need to to create migration for `jobs` table with the following Laravel command.
 
