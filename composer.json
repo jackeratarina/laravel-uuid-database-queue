@@ -1,18 +1,18 @@
 {
-    "name": "stescacom/laravel-uuid-database-queue",
+    "name": "jackeratarina/laravel-uuid-database-queue",
     "version": "1.0.0",
     "description": "This enables laravel to use UUID for Job primary key, and enables proper interaction.",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Stescacom\\LaravelUuidDatabaseQueue\\": "src/"
+            "jackeratarina\\LaravelUuidDatabaseQueue\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Stescacom\\LaravelUuidDatabaseQueue\\LaravelUuidDatabaseQueueProvider"
+                "jackeratarina\\LaravelUuidDatabaseQueue\\LaravelUuidDatabaseQueueProvider"
             ]
         }
     },
@@ -31,7 +31,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/stescacom/laravel-uuid-database-queue.git"
+            "url": "https://github.com/jackeratarina/laravel-uuid-database-queue.git"
         }
     ]
 }
