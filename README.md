@@ -42,7 +42,7 @@ Continue from section [`Run Migrations`](#run-migrations)
 
 In case you've already run the migration and the table exists in your database, you need to register the package service provider first. Open your project's `config/app.php` and add the following line to `providers` array.
 
-    Stescacom\LaravelUuidDatabaseQueue\LaravelUuidDatabaseQueueProvider::class
+    jackeratarina\LaravelUuidDatabaseQueue\LaravelUuidDatabaseQueueProvider::class
 
 After this run the migration.
 
@@ -54,6 +54,6 @@ Now the migrations are all set to run. use the following command
 
 ## Setup Service Provider
 
-The final step is to replace `Illuminate\Queue\QueueServiceProvider::class` with `Stescacom\LaravelUuidDatabaseQueue\QueueServiceProvider::class`, open `config/app.php`. Remove or comment the line `Illuminate\Queue\QueueServiceProvider::class` inside the `providers` array and add `Stescacom\LaravelUuidDatabaseQueue\QueueServiceProvider::class`
+The final step is to replace `Illuminate\Queue\QueueServiceProvider::class` with `Stescacom\LaravelUuidDatabaseQueue\QueueServiceProvider::class`, open `config/app.php`. Remove or comment the line `Illuminate\Queue\QueueServiceProvider::class` inside the `providers` array and add `jackeratarina\LaravelUuidDatabaseQueue\QueueServiceProvider::class`
 
 You are all set...
