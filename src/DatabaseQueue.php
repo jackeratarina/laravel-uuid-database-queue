@@ -18,8 +18,10 @@ class DatabaseQueue extends IlluminateDatabaseQueue {
      */
     protected function buildDatabaseRecord($queue, $payload, $availableAt, $attempts = 0)
     {
+        $payloadData = json_decode($payload);
         return [
-            'id' => (string) Str::orderedUuid(),
+            'id' => (string) $payloadData->uuid,
+            'displayName' => (string) $payloadData->displayName,
             'queue' => $queue,
             'payload' => $payload,
             'attempts' => $attempts,
