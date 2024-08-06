@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Stescacom\\LaravelUuidDatabaseQueue\\' => array($baseDir . '/src'),
+    'jackeratarina\\LaravelUuidDatabaseQueue\\' => array($baseDir . '/src'),
 );

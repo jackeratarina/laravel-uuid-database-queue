@@ -54,6 +54,6 @@ Now the migrations are all set to run. use the following command
 
 ## Setup Service Provider
 
-The final step is to replace `Illuminate\Queue\QueueServiceProvider::class` with `Stescacom\LaravelUuidDatabaseQueue\QueueServiceProvider::class`, open `config/app.php`. Remove or comment the line `Illuminate\Queue\QueueServiceProvider::class` inside the `providers` array and add `jackeratarina\LaravelUuidDatabaseQueue\QueueServiceProvider::class`
+The final step is to replace `Illuminate\Queue\QueueServiceProvider::class` with `jackeratarina\LaravelUuidDatabaseQueue\QueueServiceProvider::class`, open `config/app.php`. Remove or comment the line `Illuminate\Queue\QueueServiceProvider::class` inside the `providers` array and add `jackeratarina\LaravelUuidDatabaseQueue\QueueServiceProvider::class`
 
 You are all set...

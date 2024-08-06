@@ -1,6 +1,6 @@
 <?php
 
-namespace Stescacom\LaravelUuidDatabaseQueue;
+namespace jackeratarina\LaravelUuidDatabaseQueue;
 
 use Illuminate\Support\ServiceProvider;
 

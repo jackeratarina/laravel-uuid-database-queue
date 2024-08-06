@@ -9,12 +9,12 @@ class ComposerStaticInit3250a61716d615ad9f4161a1c9c29add
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Stescacom\\LaravelUuidDatabaseQueue\\' => 32,
+            'jackeratarina\\LaravelUuidDatabaseQueue\\' => 32,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Stescacom\\LaravelUuidDatabaseQueue\\' => 
+        'jackeratarina\\LaravelUuidDatabaseQueue\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
