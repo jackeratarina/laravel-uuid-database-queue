@@ -10,7 +10,7 @@ This package provides service provider and necessary classes to allow you to ins
 
 To install the package use the command below
 
-    composer require stescacom/laravel-uuid-database-queue
+    composer require jackeratarina/laravel-uuid-database-queue
 
 ## Fresh Install of Laravel
 
@@ -23,6 +23,7 @@ Next open the created file with the name `create_jobs_table` in it, and make the
     Schema::create('jobs', function (Blueprint  $table) {
 		// $table->bigIncrements('id'); // remove this line
 		$table->uuid('id')->primary(); // add this line
+		$table->string('displayName'); // add this line
 		$table->string('queue')->index();
 		$table->longText('payload');
 		$table->unsignedTinyInteger('attempts');
